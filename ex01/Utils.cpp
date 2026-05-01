@@ -1,23 +1,13 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Command.cpp                                        :+:      :+:    :+:   */
+/*   Utils.cpp                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/01 14:04:05 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/01 16:50:06 by gaeducas         ###   ########.fr       */
+/*   Created: 2026/05/01 16:50:31 by gaeducas          #+#    #+#             */
+/*   Updated: 2026/05/01 17:03:21 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Command.hpp"
-
-int Command::ft_loop(std::string command)
-{
-	int i = 0;
-	while (1)
-	{
-		if (command.substr(0, 3) == "ADD")
-			ft_add();
-	}
-}
+#include "Utils.hpp"
