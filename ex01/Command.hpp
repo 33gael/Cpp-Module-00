@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   Command.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gaeducas <gaeducas@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:08 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/01 15:17:31 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/01 17:04:59 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,10 +18,10 @@
 class Command {
 
 private: 
-	char *command;
+	std::string _command;
 
 public:
-	int	ft_loop(char *command);
+	int	ft_loop(std::string _command);
 };
 
 #endif
