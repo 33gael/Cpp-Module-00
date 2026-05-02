@@ -6,7 +6,7 @@
 /*   By: gaeducas <gaeducas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:14 by gaeducas            #+#    #+#             */
-/*   Updated: 2026/05/02 14:35:58 by gaeducas           ###   ########.fr       */
+/*   Updated: 2026/05/02 15:13:22 by gaeducas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,7 @@
 
 #include <iostream>
 #include <string>
+#include "Contact.hpp"
 
 class PhoneBook {
 private :

@@ -1,28 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Contact.hpp                                        :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gaeducas <gaeducas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/02 14:36:11 by gaeducas            #+#    #+#             */
-/*   Updated: 2026/05/02 15:13:16 by gaeducas           ###   ########.fr       */
+/*   Created: 2026/05/02 15:17:53 by gaeducas            #+#    #+#             */
+/*   Updated: 2026/05/02 15:23:59 by gaeducas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
-#include <string>
-#include <iostream>
+#include "Contact.hpp"
+#include "Utils.hpp"
+#include "Command.hpp"
+#include "PhoneBook.hpp"
 
-class Contact {
-private :
-    std::string _first_name;
-    std::string _last_name;
-    std::string _nick_name;
-    std::string _number;
-    std::string _secret;
+int main(int ac, char **av)
+{
 
-public :
-    static int get_input();
-
-};
+}
