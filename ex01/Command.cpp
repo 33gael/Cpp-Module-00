@@ -6,7 +6,7 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:05 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/01 23:28:01 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/02 14:31:50 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 int Command::ft_loop(std::string command)
 {
 	int i = 0;
-	while (1)
+	while (std::cin)
 	{
 		if (command.substr(0, 3) == "ADD")
 			Utils::add_utils();
@@ -25,4 +25,5 @@ int Command::ft_loop(std::string command)
 		else if (command.substr(0, 4) == "EXIT")
 			Utils::exit_utils();
 	}
+	return (0);
 }
