@@ -1,19 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   Utils.cpp                                          :+:      :+:    :+:   */
+/*   Contact.hpp                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gaeducas <gaeducas@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/01 16:50:31 by gaeducas            #+#    #+#             */
-/*   Updated: 2026/05/02 14:34:59 by gaeducas           ###   ########.fr       */
+/*   Created: 2026/05/02 14:36:11 by gaeducas            #+#    #+#             */
+/*   Updated: 2026/05/02 14:38:43 by gaeducas           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Utils.hpp"
+#pragma once
+#include <string>
 
-int Utils::add_utils()
-{
-    
-    return (0);
-}
+class Contact {
+private :
+    std::string _first_name;
+    std::string _last_name;
+    std::string _nick_name;
+    std::string _number;
+    std::string _secret;
+
+public :
+
+};
