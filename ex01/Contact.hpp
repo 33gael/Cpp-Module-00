@@ -6,12 +6,13 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/02 14:36:11 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/02 14:38:43 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/02 15:13:16 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #pragma once
 #include <string>
+#include <iostream>
 
 class Contact {
 private :
@@ -22,5 +23,6 @@ private :
     std::string _secret;
 
 public :
+    static int get_input();
 
 };

@@ -1,26 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   PhoneBook.hpp                                      :+:      :+:    :+:   */
+/*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/01 14:04:14 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/02 15:13:22 by gaeducas         ###   ########.fr       */
+/*   Created: 2026/05/02 15:17:53 by gaeducas          #+#    #+#             */
+/*   Updated: 2026/05/02 15:23:59 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#pragma once
-
-#include <iostream>
-#include <string>
 #include "Contact.hpp"
+#include "Utils.hpp"
+#include "Command.hpp"
+#include "PhoneBook.hpp"
 
-class PhoneBook {
-private :
-    Contact _contact[8];
-    int _oldest_index;
+int main(int ac, char **av)
+{
 
-public :
-    
-};
+}
