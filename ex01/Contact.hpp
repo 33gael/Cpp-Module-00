@@ -6,7 +6,7 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/02 14:36:11 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/02 15:13:16 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/02 16:59:32 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,6 +23,6 @@ private :
     std::string _secret;
 
 public :
-    static int get_input();
+    static std::string get_input();
 
 };

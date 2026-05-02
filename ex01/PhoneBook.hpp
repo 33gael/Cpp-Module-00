@@ -6,7 +6,7 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:14 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/02 15:13:22 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/02 16:45:50 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@
 class PhoneBook {
 private :
     Contact _contact[8];
-    int _oldest_index;
+    //int _oldest_index;
 
 public :
     

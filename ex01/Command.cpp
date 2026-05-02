@@ -6,7 +6,7 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:05 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/02 16:38:42 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/02 17:11:27 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,11 @@
 #include "Utils.hpp"
 #include "Contact.hpp"
 
-int Command::ft_loop(std::string command)
-{
-	int i = 0;
-	Contact::get_input();
+int Command::ft_loop() {
+	// int i = 0;
 	while (std::cin)
 	{
+		std::string command = Contact::get_input();
 		if (command.substr(0, 3) == "ADD")
 			Utils::add_utils();
 		else if (command.substr(0, 6) == "SEARCH")
