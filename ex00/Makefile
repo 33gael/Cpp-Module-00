@@ -6,7 +6,7 @@
 #    By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/03/17 00:06:23 by gaeducas          #+#    #+#              #
-#    Updated: 2026/03/17 00:16:57 by gaeducas         ###   ########.fr        #
+#    Updated: 2026/05/02 16:40:36 by gaeducas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ NAME = megaphone
 SRCS = megaphone.cpp
 
 CC = clang++
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 RM = rm -f
 
