@@ -6,22 +6,19 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:08 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/01 17:04:59 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/01 22:59:09 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef COMMAND_HPP
-#define COMMAND_HPP
+#pragma once
 
 #include <iostream>
+#include <string>
 
 class Command {
 
 private: 
-	std::string _command;
 
 public:
-	int	ft_loop(std::string _command);
+	static int	ft_loop(std::string _command);
 };
-
-#endif

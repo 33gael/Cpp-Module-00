@@ -6,8 +6,13 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 16:50:31 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/01 17:03:21 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/01 23:29:32 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Utils.hpp"
+
+int Utils::add_utils()
+{
+    
+}

@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   PhoneBook.hpp                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gaeducas <gaeducas@student.42.fr>          +#+  +:+       +#+        */
+/*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 14:04:14 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/01 14:13:55 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/01 22:59:31 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PHONEBOOK_HPP
-#define PHONEBOOK_HPP
+#pragma once
 
 #include <iostream>
-
-#endif
+#include <string>
