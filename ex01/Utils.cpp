@@ -6,15 +6,21 @@
 /*   By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/01 16:50:31 by gaeducas          #+#    #+#             */
-/*   Updated: 2026/05/02 17:28:30 by gaeducas         ###   ########.fr       */
+/*   Updated: 2026/05/02 23:36:50 by gaeducas         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Utils.hpp"
 #include "Contact.hpp"
+#include "PhoneBook.hpp"
+
+PhoneBook::PhoneBook() {
+    this->_oldest_index = 0;
+}
 
 int Utils::add_utils() {
     int i = 0;
+    // int j = 0;
     while (i <= 4)
     {
         if (i == 0)
@@ -56,7 +62,7 @@ int Utils::search_utils() {
     return (0);
 }
 
-int Utils::exit_utils() {
-    std::cout << "Exit";
-    return (0);
+void Utils::exit_utils() {
+    std::cout << "exit" << std::endl;
+    std::exit(0);
 }
