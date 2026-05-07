@@ -3,23 +3,21 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: gaeducas <gaeducas@student.fr>             +#+  +:+       +#+         #
+#    By: gaeducas <gaeducas@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/02 16:40:42 by gaeducas          #+#    #+#              #
-#    Updated: 2026/05/02 16:45:20 by gaeducas         ###   ########.fr        #
+#    Updated: 2026/05/07 11:06:20 by gaeducas         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = PhoneBook
 
 SRCS = main.cpp \
-       PhoneBook.cpp \
-       Contact.cpp \
-       Command.cpp \
-       Utils.cpp
+		PhoneBook.cpp \
+		Contact.cpp \
 
 CC = clang++
-CFLAGS = -Wall -Wextra -Werror
+CFLAGS = -Wall -Wextra -Werror -std=c++98
 
 RM = rm -f
 
